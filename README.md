@@ -16,7 +16,7 @@ schedule vehicle repair or maintenance, searching in the system for a reliable c
 and free to attend the service scheduled. So this way, the workshop choosen by the costumer will be able to get prepared 
 to attend the schaduled service in a faster way, guaranteeing the vehicle return as fast as possible. 
 
-# Technologies used to develop the API so far:
+# Technologies used so far:
 ### Front-end: in development
 ![VsCode](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 ![Html](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) 
@@ -52,7 +52,7 @@ clientes e que esteja disponível para atender o serviço agendado.
 Assim a oficina escolhida pelo cliente, poderá se preparar para receber e atender o serviço de 
 forma mais rápida, garantindo a entrega do veiculo o mais rápido possível.
 
-# Ferramentas utilizadas no desenvolvimento da API até agora:
+# Ferramentas utilizadas no desenvolvimento até agora:
 ### Front-end: em desenvolvimento
 ![VsCode](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 ![Html](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) 
