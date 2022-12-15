@@ -1,0 +1,18 @@
+Header - Footer: #212428
+
+Background: #323233
+
+Palavras de destaque: #FD6500
+
+Icones: #EC7B4B
+
+Inputs: Fundo: #dfdfdf Borda inf: #FD6500
+
+Ids:
+VIP cards container: vipCardsContainer
+
+Classes:
+Textos simples: .txt
+Textos de Destaque: .txtDestaque
+
+VIP cards: vipCards

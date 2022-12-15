@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel="stylesheet" href="../style.css">
+        <title>pit-stop-cadastro</title>
+    </head>
+ 
+    <body>
+
+        <!--HEADER-->
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/index.html"> <img src="../imagens/headerLogo.png" alt="" id="logo"> </a>
+                <button class="navbar-toggler" id="menuBtn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"><p class="txtDestaque"> Menu </p></h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div id="menu" class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/index.html"> <p class="txt"> Home </p></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/usuario_cliente/usuario-cliente.html"> <p class="txt"> Agendar serviço </p></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/usuario_oficina/usuario-Oficina.html"> <p class="txt"> Oferecer serviços </p></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/parceiros.html"> <p class="txt"> Conheça nossos parceiros </p></a>
+                    </li>
+                    </ul> 
+                </div>
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"><p id="desenvolvedorTitle"> Desenvolvido por: </p><p id="desenvolvedorName">Higor Moriyama Souza</p></h5>
+                    <a id="btnGit" type="button" class="btn btn-outline-warning" href="https://github.com/HSMoriyama">GitHub</a>
+                </div>
+                </div>
+            </div>
+        </nav>
+        <!--HEADER-->
+
+        <div id="pageContent" class="container">
+
+            <h1 class="txtDestaque">Cadastro de dados pessoais</h1>
+            <p class="txt">Precisamos que insira seus dados pessoais, para que você possa desfrutar de todos os nossos recursos.</p>
+            <p class="txt">*SEUS DADOS JAMAIS SERÃO COMPARTILHADOS!*</p>
+
+            <form>
+                <input class="form-control" id="status" type="text" placeholder="STATUS: Dados não cadastrados!" aria-label="Disabled input example" disabled><br>
+
+                <!--NOME-->
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label"> <p class="inputLabel"> Nome: </p> </label>
+                  <input class="form-control" id="nome" type="text" aria-label="default input example" placeholder="Seu nome completo!">
+                  <div id="emailHelp" class="form-text"></div>
+                </div>
+
+                <!--CPF-->
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label"> <p class="inputLabel"> CPF: </p> </label>
+                    <input class="form-control" id="cpf" type="text" aria-label="default input example" placeholder="SOMENTE NÚMEROS!">
+                    <div id="emailHelp" class="form-text"></div>
+                </div>
+
+                <!--RG-->
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label"> <p class="inputLabel"> RG: </p> </label>
+                    <input class="form-control" id="rg" type="text" aria-label="default input example" placeholder="SOMENTE NÚMEROS!">
+                    <div id="emailHelp" class="form-text"></div>
+                </div>
+
+                <!--Telefone-->
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label"> <p class="inputLabel"> Telefone: </p> </label>
+                    <input class="form-control" id="telefone" type="text" aria-label="default input example" placeholder="SOMENTE NÚMEROS!">
+                    <div id="emailHelp" class="form-text"></div>
+                </div>
+
+                <!--Email-->
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label"> <p class="inputLabel"> Email: </p> </label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">Insira um email válido!</div>
+                </div>
+
+                <!--Endereço-->
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label"> <p class="inputLabel"> Endereço: </p> </label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+
+                <!--BOTÃO DE CADASTRO-->
+                <button type="submit" class="btn btn-primary" id="btn">Cadastrar</button>
+                <a class="btn btn-primary" href="../cliente/area-cliente.html" id="btn">Voltar a área VIP</a>
+            </form>
+
+        </div>
+
+    <!--FOOTER-->
+        <div id="footerSpace"></div>
+        <nav id="servicosHeader" class="section-headers">
+            <div class="container-fluid">
+                <img id="logoFooter" src="../imagens/headerLogo.png" alt="logo">
+            </div>
+        </nav>
+    <!--FOOTER-->
+
+        <!--SCRIPT BOOTSTRAP-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <!--SCRIPT--><script src="./clienteScript.js" defer></script>    
+    </body>
+
+</html>

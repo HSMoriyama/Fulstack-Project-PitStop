@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel="stylesheet" href="../style.css">
+        <title>pit-stop-VIP</title>
+    </head>
+ 
+    <body>
+
+        <!--HEADER-->
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/index.html"> <img src="../imagens/headerLogo.png" alt="" id="logo"> </a>
+                <button class="navbar-toggler" id="menuBtn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"><p class="txtDestaque"> Menu </p></h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div id="menu" class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/index.html"> <p class="txt"> Home </p></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/usuario_cliente/usuario-cliente.html"> <p class="txt"> Agendar serviço </p></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/usuario_oficina/usuario-Oficina.html"> <p class="txt"> Oferecer serviços </p></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/parceiros.html"> <p class="txt"> Conheça nossos parceiros </p></a>
+                    </li>
+                    </ul> 
+                </div>
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"><p id="desenvolvedorTitle"> Desenvolvido por: </p><p id="desenvolvedorName">Higor Moriyama Souza</p></h5>
+                    <a id="btnGit" type="button" class="btn btn-outline-warning" href="https://github.com/HSMoriyama">GitHub</a>
+                </div>
+                </div>
+            </div>
+        </nav>
+        <!--HEADER-->        
+
+        <div id="pageContent" class="container">
+
+            <h1 class="txtDestaque">Área VIP</h1>
+            <p class="txt">OBS 1: Cadastre os dados de sua empresa, para receber agendamentos pelo nosso site</p>
+
+            <div id="vipCardsContainer" class="container">
+
+                <div class="vipCards"><a href="../oficina/oficina.html"><img src="../imagens/area-oficina/cadOficina1.jpg" alt="" class="img-fluid"></a></div>
+                <div class="vipCards"><a href=""><img src="../imagens/emBreve.jpg" alt="" class="img-fluid"></a></div>
+                <div class="vipCards"><a href="./consulta-servico.html"><img src="../imagens/area-cliente/consultaServico2.jpg" alt="" class="img-fluid"></a></div>
+
+            </div>
+        </div>
+
+    <!--FOOTER-->
+        <div id="footerSpace"></div>
+        <nav id="servicosHeader" class="section-headers">
+            <div class="container-fluid">
+                <img id="logoFooter" src="../imagens/headerLogo.png" alt="logo">
+            </div>
+        </nav>
+    <!--FOOTER-->
+
+    <!--SCRIPT BOOTSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    </body>
+
+</html>

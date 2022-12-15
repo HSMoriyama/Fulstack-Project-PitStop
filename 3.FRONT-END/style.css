@@ -1,0 +1,179 @@
+body{
+    background-color: #1E1E1E;
+}
+
+#pageContent{
+    padding-top: 150px;
+}
+
+/*HEADER*/
+#logo{
+    width: 68px;
+    height: 60px;
+}
+#menuBtn, #btnGit{
+    border-color: #FD6500;
+    color: #FD6500;
+}#btnGit:hover{
+    background-color: #FD6500;
+    color: #0F0F0F;
+}
+
+/*FOOTER*/
+#logoFooter{
+    width: 168px;
+    height: 160px;
+}#footerSpace{
+    margin-top: 150px;
+}
+
+/*MENU*/
+#menu li:hover{
+    background-color: #FD6500;
+    transform: scale(1.010);
+    padding-left: 10px;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+}
+#desenvolvedorTitle{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #FD6500;
+    margin-bottom: 0px;
+}
+#desenvolvedorName{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    color: white;
+}
+
+.txtDestaque{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FD6500;
+}
+.txt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+}
+.mb-3 input{
+    background-color: #dfdfdf;
+    border-radius: 20px;
+    border-bottom: 4px solid #FD6500;
+}
+.mb-3 textarea{
+    background-color: #dfdfdf;
+    border-radius: 20px;
+    border-bottom: 4px solid #FD6500;
+}
+.inputLabel{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+#btn, #btnBusca, #btnCta{
+    border-style: none;
+    background-color: #FD6500;
+    color: #0F0F0F;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+/*HOME*/
+/*SERVIÇOS - SECTION*/
+#servicosHeader{
+    background-color: #212428
+}
+
+#servicos, #servicosHeader, #callToAction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+section{
+    background-color: #1E1E1E;
+}#servicos img{
+    margin-top: 150px;
+}#btnCta{
+    margin-top: 30px;
+    width: 1000px;
+    height: 60px;
+    color: #ffffff;
+    font-size:xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}#btnCta:hover{
+    background-color: #FD6500;
+    transform: scale(1.010);
+    padding-left: 10px;
+    justify-content: center;
+
+}
+#callToAction{
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+/*PARCEIROS - SECTION*/
+.section-headers{
+    padding: 30px;
+}
+
+
+/*CONSULTA*/
+/*MODAL*/
+#modal{
+    background-color: #212428;
+    position: absolute;
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*TABELAS*/
+table, td, tr{
+    border-bottom: 1px solid #FD6500;
+    text-align: center;
+    padding: 10px;
+}
+.tableBuscaTitulo{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FD6500;
+}#ops{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+/*STATUS FORMS*/
+#status{
+    border-style: none;
+    background-color: #212428;
+    color: #FD6500;
+}
+
+/*AREAS VIP*/
+#vipCardsContainer{
+    display: flex;
+    justify-content: space-between;
+}
+/*CARDS*/
+.vipCards{
+    width: 280px;
+    height: 370px;
+    border: 8px solid  #1E1E1E;
+}
+.vipCards:hover{
+    cursor: pointer;
+}
