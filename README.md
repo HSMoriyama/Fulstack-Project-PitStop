@@ -16,8 +16,8 @@ schedule vehicle repair or maintenance, searching in the system for a reliable c
 and free to attend the service scheduled. So this way, the workshop choosen by the costumer will be able to get prepared 
 to attend the schaduled service in a faster way, guaranteeing the vehicle return as fast as possible. 
 
-# Technologies used so far:
-### Front-end: in development
+# Technologies used in the project development:
+### Front-end: 
 ![VsCode](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 ![Html](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) 
 ![Css](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) 
@@ -30,6 +30,17 @@ to attend the schaduled service in a faster way, guaranteeing the vehicle return
 ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
 ![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=Spring-Security&logoColor=white)
 ![MySql](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+
+### Other tools used in the back-end development:
+- Spring Initializer for the project creation. 
+- Maven for the project management.
+- Java Persistence Application and Hibernate for the communication with the database.
+- For the Database, XAMPP, MySQL and SGBD phpMyAdmin.
+- Log – SLF4J with LOGBACK the API log generation.
+- JSON Web Token for token generation and authentication.
+- Swagger for the API documentation.
+- Postman for requests and response tests.
+
 
 # --Tradução--
 
@@ -52,8 +63,8 @@ clientes e que esteja disponível para atender o serviço agendado.
 Assim a oficina escolhida pelo cliente, poderá se preparar para receber e atender o serviço de 
 forma mais rápida, garantindo a entrega do veiculo o mais rápido possível.
 
-# Ferramentas utilizadas no desenvolvimento até agora:
-### Front-end: em desenvolvimento
+# Ferramentas utilizadas no desenvolvimento do projeto:
+### Front-end:
 ![VsCode](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 ![Html](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) 
 ![Css](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) 
@@ -66,3 +77,13 @@ forma mais rápida, garantindo a entrega do veiculo o mais rápido possível.
 ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
 ![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=Spring-Security&logoColor=white)
 ![MySql](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+
+### Outras ferramentas usadas no desenvolvimento do back-end:
+- Spring Initializer para criação do projeto. 
+- Maven para gerenciamento de projeto.
+- Java Persistence Application e Hibernate para comunicação com Banco de Dados.
+- Banco de Dados, XAMPP, MySQL e SGBD phpMyAdmin.
+- Log – SLF4J com LOGBACK para geração de log da API.
+- JSON Web Token para geração de token e autenticações.
+- Swagger para documentação da API.
+- Postman para envio de requisições, para fins de testes.
